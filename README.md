@@ -427,7 +427,8 @@ Ouvrez le port **9000** depuis l'onglet `PORTS`.
 > [!WARNING]
 > Pour des raisons de sécurité, Portainer **se verrouille si aucun compte admin n'est créé dans les 5 minutes**. Si vous voyez un message de *timeout* :
 > ```bash
-> kubectl rollout restart deploy/portainer -n portainer
+> 
+
 > ```
 > puis relancez le port-forward.
 
